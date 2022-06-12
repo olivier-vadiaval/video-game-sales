@@ -154,7 +154,7 @@ FROM sales_plat_gen spg1 INNER JOIN
 
 
 -- (8)
--- Find 10 the platform with the most sales worldwide for each 
+-- Find the 10 platforms with the most sales worldwide for each 
 -- year in the 21st century.
 WITH sales_plat_yr AS (
 	SELECT [Year], [Platform],
